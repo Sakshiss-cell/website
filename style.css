@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  scroll-behavior: smooth;
+}
+
+/* navbaar */
+ .navbar{
+   background-color: black;
+   color: #fff;
+ }
+ .nav-link{
+  color: #fff!important;
+  font-size: 20px;
+ }
+ .nav-item{
+   padding-left: 20px ;
+   padding-right: 20px;
+ }
+
+
+/* carosol */
+.header-curosel .carousel-item img{
+  width: 1678px;
+  height: 700px; 
+}
+
+/* description sec */
+.section-two{
+  background-color: black;
+  padding-bottom: 50px;
+  padding-top: 100px ;
+}
+.section-two h4{
+  font-size: 35px;
+  color: #fff;
+  font-weight: 900;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.section-two .card{
+  background-color: #000;
+  color: #fff;
+}
+.section-two h5{
+  font-weight: 900;
+  padding-top: 20px;
+  
+}
+.section-two p{
+  color: #939393;
+}
+.section-two img{
+  width: 60px;
+}
+
+/* gallary */
+.gallary-section{
+  margin-top: 100px;
+}
+.gallary-section h5{
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+.gallary-section h3{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.gallary-section .row{
+  padding-top: 20px;
+}
+.gallary-section img{
+  margin: 20px;
+}
+.gallary-section img:hover{
+  -moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: .5s;
+}
+
+
+.footer{
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
+.footer h5{
+  text-align: center;
+  font-weight: 900;
+  font-size: 35px;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.footer h4{
+  color: #fff;
+  font-weight: 900;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer p{
+  font-size: 14px;
+  color: #939393;
+}
+.footer h6{
+  color: #939393;
+  padding-bottom: 10px;
+}
+.footer a{
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.footer i{
+  color: #fff;
+  padding-right: 20px;
+}
+
+.copyrighty{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: azure;
+}
+.meet-us{
+  margin: 0;
+}
+
+.meet-us img{
+  opacity: 14.3%;
+  height: 500px;
+}
+
+
+.feedback-form .feedback-form-heading {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
